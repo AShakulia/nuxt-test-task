@@ -1,0 +1,14 @@
+@use './reset' as *;
+@use './variables.scss' as *;
+
+@font-face {
+  font-family: 'Movavi Grotesque';
+  src: url('/assets/fonts/movavi-grotesque.black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Lato';
+  background: radial-gradient(50% 50% at 50% 50%, #41AEE7 0%, #054BA6 100%);
+}
